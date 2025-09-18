@@ -17,6 +17,8 @@ form.addEventListener(`submit`, function (event) {
 
 const colour = localStorage.getItem(`colour`);
 
+// Setting that back into the text input box.
+
 if (colour) {
   const input = document.querySelector("input");
   input.value = colour;
